@@ -17,8 +17,9 @@
         </Grid.ColumnDefinitions>
 
         <DockPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="LightGray">
-            <Button DockPanel.Dock="Top" Content="Betöltés" Click="BetoltesClick" Height="30" Width="140"/>
-            <Button DockPanel.Dock="Top" Content="Kiértékelés" Click="KiertekelesClick" Height="30" Width="140"/>
+            <Button DockPanel.Dock="Top" Content="Betöltés" Click="BetoltesClick" Height="30" Width="140" Margin="0,5,0,0"/>
+            <Button DockPanel.Dock="Top" Content="Kiértékelés" Click="KiertekelesClick" Height="30" Width="140" Margin="0,5,0,0"/>
+            <TextBlock DockPanel.Dock="Bottom" Text="Eredmény:" Background="Beige" x:Name="tbkEredmeny" Height="290" Margin="2,2,2,2"/>
             <Button DockPanel.Dock="Bottom" Content="Kilépés" Click="KilepesClick" Height="30" Width="140"/>
         </DockPanel>
     </Grid>
