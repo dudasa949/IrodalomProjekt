@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Kviz
+namespace IrodalomProjekt
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
 
+        <DockPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="LightGray">
+            <Button DockPanel.Dock="Top" Content="Betöltés" Click="BetoltesClick" Height="30" Width="140"/>
+            <Button DockPanel.Dock="Top" Content="Kiértékelés" Click="KiertekelesClick" Height="30" Width="140"/>
+            <Button DockPanel.Dock="Bottom" Content="Kilépés" Click="KilepesClick" Height="30" Width="140"/>
+        </DockPanel>
     </Grid>
 </Window>

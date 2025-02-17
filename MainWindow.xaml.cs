@@ -11,14 +11,26 @@ using System.Windows.Shapes;
 
 namespace IrodalomProjekt
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BetoltesClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void KilepesClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void KiertekelesClick(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
