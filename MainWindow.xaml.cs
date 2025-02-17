@@ -23,12 +23,27 @@ namespace IrodalomProjekt
 
         }
 
+        private void KiertekelesClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void KilepesClick(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void KiertekelesClick(object sender, RoutedEventArgs e)
+        private void ElozoClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MegerositesClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void KovetkezoClick(object sender, RoutedEventArgs e)
         {
 
         }

@@ -19,8 +19,20 @@
         <DockPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="LightGray">
             <Button DockPanel.Dock="Top" Content="Betöltés" Click="BetoltesClick" Height="30" Width="140" Margin="0,5,0,0"/>
             <Button DockPanel.Dock="Top" Content="Kiértékelés" Click="KiertekelesClick" Height="30" Width="140" Margin="0,5,0,0"/>
-            <TextBlock DockPanel.Dock="Bottom" Text="Eredmény:" Background="Beige" x:Name="tbkEredmeny" Height="290" Margin="2,2,2,2"/>
+            <TextBlock DockPanel.Dock="Bottom" Text="Eredmény:" Background="Beige" x:Name="tbkEredmeny" Height="290" Margin="5,5,5,5" VerticalAlignment="Top"/>
             <Button DockPanel.Dock="Bottom" Content="Kilépés" Click="KilepesClick" Height="30" Width="140"/>
         </DockPanel>
+        <TextBlock Grid.Column="1" x:Name="tbkKerdeszSzoveg"/>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <RadioButton GroupName="Valaszok" Name="ValaszA" Margin="3" Content="A."/>
+            <RadioButton GroupName="Valaszok" Name="ValaszB" Margin="3" Content="B."/>
+            <RadioButton GroupName="Valaszok" Name="ValaszC" Margin="3" Content="C."/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Előző" Margin="5" Width="100" Click="ElozoClick"/>
+                <Button Content="Megerősítés" Margin="5" Padding="5" Width="100" Click="MegerositesClick"/>
+                <Button Content="Következő" Margin="5"
+ Padding="5" Width="100" Click="KovetkezoClick"   />
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
