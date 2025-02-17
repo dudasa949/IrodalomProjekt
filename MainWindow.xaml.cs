@@ -18,6 +18,7 @@ namespace IrodalomProjekt
             InitializeComponent();
         }
 
+        //KerdesekFeltolt létrehozása (állományból beolvasás); Clear; try-catch; StreamReader célszerű
         private void BetoltesClick(object sender, RoutedEventArgs e)
         {
 
